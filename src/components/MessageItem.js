@@ -1,7 +1,7 @@
 import React from 'react'
 // npm install prop-types  
 import PropTypes from 'prop-types'
-import moment from 'moment' // npm install moment
+//import moment from 'moment' // npm install moment
 
 class MessageItem extends React.Component {
     constructor(props) { // to copy prop value into the state while creating component
