@@ -27,7 +27,7 @@ class MessageForm extends React.Component {
     render(){
         return (
             <div>
-                <h2>Add Message</h2>
+                <h2>Add Comment</h2>
                 <form onSubmit={this.handleSubmit}>
                     <textarea value={this.state.body} onChange={this.handleChange} name="body"></textarea><br/>
                     <input type="submit" />

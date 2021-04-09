@@ -4,7 +4,7 @@ import Messages from './components/Messages'
 function App() {
     return (
         <div>
-            <h1>Message Board</h1>
+            <h1>Comment App</h1>
             <Messages />
         </div>
     )
