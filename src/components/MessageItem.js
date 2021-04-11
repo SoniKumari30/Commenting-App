@@ -1,5 +1,5 @@
 import React from 'react'
-// npm install prop-types  //
+// npm install prop-types  
 import PropTypes from 'prop-types'
 import moment from 'moment' // npm install moment
 
