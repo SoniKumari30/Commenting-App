@@ -1,7 +1,7 @@
 import React from 'react' 
 import axios from 'axios'
 
-class MessageForm extends React.Component {//
+class MessageForm extends React.Component {
     constructor(){
         super()
         this.state = {
