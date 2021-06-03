@@ -75,7 +75,7 @@ class MessageItem extends React.Component {
                         <div>
                             <form onSubmit={this.handleSubmit}>
                                 <textarea 
-                                    value={this.state.body}
+                                    valu//e={this.state.body}
                                     onChange={this.handleChange}
                                     name="body"
                                 ></textarea>

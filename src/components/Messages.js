@@ -73,7 +73,7 @@ class Messages extends React.Component {
                     }
                 })
             })
-            .catch((err) => {
+            .catch((err) => {//
                 alert(err.message)
             })
     }
@@ -89,7 +89,7 @@ class Messages extends React.Component {
     render() {
         return (
             <div>
-                <h2>My CommentS - { this.state.messages.length } </h2>
+                <h2>My Comments - { this.state.messages.length } </h2>
 
                 <MessageForm addMessage={this.addMessage} />
 
