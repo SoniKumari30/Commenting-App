@@ -73,7 +73,7 @@ class Messages extends React.Component {
                     }
                 })
             })
-            .catch((err) => {//
+            .catch((err) => {
                 alert(err.message)
             })
     }

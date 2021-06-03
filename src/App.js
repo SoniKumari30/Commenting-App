@@ -6,7 +6,7 @@ function App() {
         <div>
             <h1>Comment-App</h1>
             <Messages />
-        </div>//
+        </div>
     )
 }
 

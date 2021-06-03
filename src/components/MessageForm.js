@@ -18,7 +18,7 @@ class MessageForm extends React.Component {
     handleSubmit = (e) => {
         e.preventDefault()
         const formData = {
-            body: this.state.body//
+            body: this.state.body
         }
         this.props.addMessage(formData)
         this.setState({ body: ''})
