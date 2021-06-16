@@ -7,7 +7,7 @@ class MessageItem extends React.Component {
     constructor(props) { // to copy prop value into the state while creating component
         super(props)
         this.state = { 
-            editStat//us: false, // state value used to do toggle on the screen
+            editStatus: false, // state value used to do toggle on the screen
             body: props.body, // to prefill values inside the form
             fullDate: false
         }

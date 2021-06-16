@@ -6,7 +6,7 @@ class MessageForm extends React.Component {
         super()
         this.state = {
             body : ''
-        }//
+        }
     }
 
     handleChange = (e) => {
