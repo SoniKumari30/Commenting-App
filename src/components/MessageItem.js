@@ -11,7 +11,7 @@ class MessageItem extends React.Component {
             body: props.body, // to prefill values inside the form
             fullDate: false
         }
-    }//
+    }
 
     handleRemove = () => {
         const id = this.props.id 
