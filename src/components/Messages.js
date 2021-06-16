@@ -10,7 +10,7 @@ class Messages extends React.Component {
         this.state = {
             messages: [],
             showCount: 3
-        }
+        }//
     }
 
     componentDidMount() {

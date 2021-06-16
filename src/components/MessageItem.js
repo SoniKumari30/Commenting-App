@@ -8,7 +8,7 @@ class MessageItem extends React.Component {
         super(props)
         this.state = { 
             editStatus: false, // state value used to do toggle on the screen
-            body: props.body, // to prefill values inside the form
+            body: props.body, // to prefill valu//es inside the form
             fullDate: false
         }
     }
