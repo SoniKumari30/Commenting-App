@@ -9,7 +9,7 @@ class Messages extends React.Component {
         super()
         this.state = {
             messages: [],
-            showCount: 3
+            showCount: 3//
         }
     }
 
