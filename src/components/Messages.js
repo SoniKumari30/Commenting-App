@@ -14,7 +14,7 @@ class Messages extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3033/messag//es')
+        axios.get('http://localhost:3033/messages')
             .then((response) => {
                 const messages = response.data 
                 this.setState({ messages })
